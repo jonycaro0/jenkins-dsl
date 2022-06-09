@@ -12,7 +12,6 @@ pipelineJob('choice/choice') {
                 git {
                     branch('feature/seedJob')
                     remote {
-                        credentials('git-credentials-goya')
                         url('https://github.com/jonycaro0/jenkins-dsl.git')
                     }
                 }
