@@ -1,12 +1,14 @@
 node {
 
   stage('Create Jobs'){
+  
   loadDsl('scripts')
+  
   cleanWs()
   
   }
 
-  loadDsl(folder){
+  def loadDsl(folder){
   jobDsl targets: "${folder}/"
 
   }
