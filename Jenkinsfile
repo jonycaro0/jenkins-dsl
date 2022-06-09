@@ -7,7 +7,6 @@ node {
   
   loadDsl('scripts')
   
-  cleanWs()
   
   }
   }
