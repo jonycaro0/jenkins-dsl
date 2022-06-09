@@ -11,6 +11,8 @@ node {
 
   def loadDsl(folder){
   
+  sh "ls"
+  sh "pwd"
   jobDsl targets: "${folder}/activechoice.groovy"
 
   }
