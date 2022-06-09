@@ -18,7 +18,7 @@ pipelineJob('choice/choice') {
                 }
             }
 
-            scriptPath('jobs/choice.groovy')
+            scriptPath('jobs/choice/choice.groovy')
         }
     }
 

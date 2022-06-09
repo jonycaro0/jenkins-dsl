@@ -12,16 +12,8 @@ import java.util.List
 //varibles logica Ambiente PT
 
 @Field def pruebaScript
-podTemplate(containers: [
-    containerTemplate(name: 'azure-cli', image: 'maikol555/azurecli', command: 'sleep', args: '99d')
-   // containerTemplate(name: 'clone-git', image: 'bitnami/git', command: 'sleep', args: '99d')
-
-  ]) {
 
     
-
-    node(POD_LABEL) {
-        
         
        properties([parameters([[$class: 'CascadeChoiceParameter', choiceType: 'PT_SINGLE_SELECT', filterLength: 1, filterable: true, name: 'prueba', randomName: 'choice-parameter-29500453461600', referencedParameters: '', script: [$class: 'GroovyScript', fallbackScript: [classpath: [], sandbox: false, script: ''], script: [classpath: [], sandbox: false, script: array() ]]]])])
         def err = null
@@ -59,8 +51,7 @@ podTemplate(containers: [
                 throw err
             }
         }
-    }
-  }
+
 
 
 String array(){
