@@ -7,10 +7,10 @@ node {
   cleanWs()
   
   }
+  }
 
   def loadDsl(folder){
   jobDsl targets: "${folder}/"
 
   }
 
-}
