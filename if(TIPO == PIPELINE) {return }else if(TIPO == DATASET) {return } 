@@ -1,0 +1,92 @@
+Script started on 2022-06-15 01:14:49-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+
+                               
+
+                fallbackScript('"fallback choice"')
+
+            }
+
+            referencedParameter('TIPO')
+
+        }
+
+       
+
+       
+
+         
+
+       
+
+    }
+
+   
+
+}
+
+def addList(){
+
+    list1.add('1')
+
+    list1.add('2')
+
+    list1.add('3')
+
+    list2.add('\'a\'')
+
+    list2.add('\'b\'')
+
+    list2.add('\'c\'')
+
+}[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$                                
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$                 fallbackScript('"fallback choice"')
+[?2004lbash: error sintáctico cerca del elemento inesperado `'"fallback choice"''
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$             }
+[?2004lbash: error sintáctico cerca del elemento inesperado `}'
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$             referencedParameter('TIPO')
+[?2004lbash: error sintáctico cerca del elemento inesperado `'TIPO''
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$         }
+[?2004lbash: error sintáctico cerca del elemento inesperado `}'
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$        
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$        
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$          
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$        
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$     }
+[?2004lbash: error sintáctico cerca del elemento inesperado `}'
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$    
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ }
+[?2004lbash: error sintáctico cerca del elemento inesperado `}'
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ def addList(){
+[?2004lbash: error sintáctico cerca del elemento inesperado `('
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$     list1.add('1')
+[?2004lbash: error sintáctico cerca del elemento inesperado `'1''
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$     list1.add('2')
+[?2004lbash: error sintáctico cerca del elemento inesperado `'2''
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$     list1.add('3')
+[?2004lbash: error sintáctico cerca del elemento inesperado `'3''
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ 
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$     list2.add('\'a\'')
+[?2004l[?2004h> 
+[?2004l[?2004h>     list2.add('\'b\'')
+[?2004l[?2004h> 
+[?2004l[?2004h>     list2.add('\'c\'')
+[?2004l[?2004h> 
+[?2004l[?2004h> }
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ def addList(){}[Kkubectl describe certificates/pd-jenkins-tls -n jenkins[20Pget certificate[C[C[C[C[C[C[C[C[C[C[C[C[20@describe certificates/pd-jenkins-tl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C}[Kdef addList(){[Kdef addList(){[Kdef addList(){}[Kkubectl describe certificates/pd-jenkins-tls -n jenkins[20Pget certificate[C[C[C[C[C[C[C[C[C[C[C[Capply -f ingress-jenkins.yaml [3Pget certificates -n jenkinsdelete -f  ingress-jenkins.yaml [5Pget certificates -n jenkinsapply -f ingress-jenkins.yaml [3Pget certificates -n jenkins[20@describe certificates/pd-jenkins-tl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
