@@ -63,6 +63,7 @@ String array(){
 
     //String variable="[\'pepe1\',\'pep2\']"
   def variable = ["pepe1","pep2"]
+  print variable
    String pruebaScript="""
     def array=${variable}
     return array
