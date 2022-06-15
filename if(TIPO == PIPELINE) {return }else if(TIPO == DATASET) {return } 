@@ -131,4 +131,46 @@ Password for 'https://jonycaro0@github.com':
 Enumerando objetos: 10, listo.
 Contando objetos:  10% (1/10)Contando objetos:  20% (2/10)Contando objetos:  30% (3/10)Contando objetos:  40% (4/10)Contando objetos:  50% (5/10)Contando objetos:  60% (6/10)Contando objetos:  70% (7/10)Contando objetos:  80% (8/10)Contando objetos:  90% (9/10)Contando objetos: 100% (10/10)Contando objetos: 100% (10/10), listo.
 Compresión delta usando hasta 8 hilos
-Comprimiendo objetos:  20% (1/5)Comprimiendo objetos:  40% (2/5)Comprimiendo objetos:  60% (3/5)Comprimiendo objetos:  80% (4/5)Comprimiendo objetos: 100% (5/5)Comprimiendo o
+Comprimiendo objetos:  20% (1/5)Comprimiendo objetos:  40% (2/5)Comprimiendo objetos:  60% (3/5)Comprimiendo objetos:  80% (4/5)Comprimiendo objetos: 100% (5/5)Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos:  16% (1/6)Escribiendo objetos:  33% (2/6)Escribiendo objetos:  50% (3/6)Escribiendo objetos:  66% (4/6)Escribiendo objetos:  83% (5/6)Escribiendo objetos: 100% (6/6)Escribiendo objetos: 100% (6/6), 1.33 KiB | 1.33 MiB/s, listo.
+Total 6 (delta 1), reusado 0 (delta 0), pack-reusado 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/jonycaro0/jenkins-dsl.git
+   289251a..a594856  feature/seedJob -> feature/seedJob
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git pushadd .commit -m "a"[8Padd .
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git add .[1Ppushadd .commit -m "a"b"
+[?2004l[feature/seedJob 5a6aaae] ab
+ Committer: jonycaro <jonycaro@ElZarabambiche.localdomain>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que son correctos.
+Tu puedes suprimir este mensaje configurándolos de forma explicita. Ejecuta el 
+siguiente comando y sigue las instrucciones de tu editor
+ para modificar tu archivo de configuración:
+
+    git config --global --edit
+
+Tras hacer esto, puedes arreglar la identidad usada para este commit con:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 44 insertions(+), 1 deletion(-)
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git commit -m "ab"[9Padd .[1Ppush
+[?2004lUsername for 'https://github.com': jonycaro0
+Password for 'https://jonycaro0@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Autenticación falló para 'https://github.com/jonycaro0/jenkins-dsl.git/'
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ h[Kgit push
+[?2004lUsername for 'https://github.com': jonycaro0
+Password for 'https://jonycaro0@github.com': 
+Enumerando objetos: 11, listo.
+Contando objetos:   9% (1/11)Contando objetos:  18% (2/11)Contando objetos:  27% (3/11)Contando objetos:  36% (4/11)Contando objetos:  45% (5/11)Contando objetos:  54% (6/11)Contando objetos:  63% (7/11)Contando objetos:  72% (8/11)Contando objetos:  81% (9/11)Contando objetos:  90% (10/11)Contando objetos: 100% (11/11)Contando objetos: 100% (11/11), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos:  20% (1/5)Comprimiendo objetos:  40% (2/5)Comprimiendo objetos:  60% (3/5)Comprimiendo objetos:  80% (4/5)Comprimiendo objetos: 100% (5/5)Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos:  16% (1/6)Escribiendo objetos:  33% (2/6)Escribiendo objetos:  50% (3/6)Escribiendo objetos:  66% (4/6)Escribiendo objetos:  83% (5/6)Escribiendo objetos: 100% (6/6)Escribiendo objetos: 100% (6/6), 1.72 KiB | 1.72 MiB/s, listo.
+Total 6 (delta 2), reusado 0 (delta 0), pack-reusado 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/jonycaro0/jenkins-dsl.git
+   a594856..5a6aaae  feature/seedJob -> feature/seedJob
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git add .
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git a
