@@ -73,6 +73,7 @@ pipelineJob('PRUEBAS/dinamicList') {
 
 def addParams() {
     def hola= ['\'pipeline1\'', '\'pipeline2\''];
+    def hola2= ['\'dataset1\'', '\'dataset2\''];
     pipelinesdev = hola
 
 }
