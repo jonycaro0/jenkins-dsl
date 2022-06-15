@@ -61,7 +61,8 @@ import java.util.List
 
 String array(){
 
-    String variable="[\'pepe1\',\'pep2\']"
+    //String variable="[\'pepe1\',\'pep2\']"
+        String variable= ["pepe1","pep2"]
    String pruebaScript="""
     def array=${variable}
     return array
