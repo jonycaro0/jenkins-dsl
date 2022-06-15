@@ -41,7 +41,7 @@ pipelineJob('PRUEBAS/prueba2') {
             groovyScript {
                 //script """if(TipoPipeline == "PIPELINE" && AmbienteOrigen == "DEV") {return ${pipelinesdev}}else if(TipoPipeline == "PIPELINE" && AmbienteOrigen == "QA") {return ${pipelinesqa}} else if(TipoPipeline == "PIPELINE" && AmbienteOrigen == "PRD") {return ${pipelinesprd}} elseif(TipoPipeline == "PIPELINE" && AmbienteOrigen == "DEV") {return ${pipelinesdev}} """
 
-                script """
+                script '''
                 switch(true){
                 case  TipoPipeline == "PIPELINE" && AmbienteOrigen == "DEV" :
                 {return ${pipelinesdev}}
@@ -65,7 +65,7 @@ pipelineJob('PRUEBAS/prueba2') {
                 print "error"
 
                 }
-                """
+                ''' 
 
                 fallbackScript('"fallback choice"')
             }
