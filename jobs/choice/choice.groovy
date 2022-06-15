@@ -24,6 +24,7 @@ import java.util.List
     node(POD_LABEL) {
         
         try {
+            array()
             container('azure-cli') {
                
                stage('prueba'){

@@ -17,8 +17,8 @@ folder('PRUEBAS') {
     description('Jobs de Pruebas')
 }
 
-pipelineJob('PRUEBAS/prueba2') {
-    displayName('prueba2')
+pipelineJob('PRUEBAS/dinamicList') {
+    displayName('dinamicList')
 
     logRotator {
         numToKeep(5)
@@ -41,43 +41,38 @@ pipelineJob('PRUEBAS/prueba2') {
             groovyScript {
                 //script """if(TipoPipeline == "PIPELINE" && AmbienteOrigen == "DEV") {return ${pipelinesdev}}else if(TipoPipeline == "PIPELINE" && AmbienteOrigen == "QA") {return ${pipelinesqa}} else if(TipoPipeline == "PIPELINE" && AmbienteOrigen == "PRD") {return ${pipelinesprd}} elseif(TipoPipeline == "PIPELINE" && AmbienteOrigen == "DEV") {return ${pipelinesdev}} """
 
-                script '''
-                switch(true){
+                script """switch(true){
                 case  TipoPipeline == "PIPELINE" && AmbienteOrigen == "DEV" :
-                {return ${pipelinesdev}}
+                    return ${pipelinesdev}
                 break;
                 case  TipoPipeline == "PIPELINE" && AmbienteOrigen == "QA" :
-                {return ${pipelinesqa}}
+                    return ${pipelinesdev}
                 break;
                 case  TipoPipeline == "PIPELINE" && AmbienteOrigen == "PRD" :
-                {return ${pipelinesprd}}
+                    return ${pipelinesdev}
                 break;
                 case  TipoPipeline == "DATASET" && AmbienteOrigen == "DEV" :
-                {return ${datasetdev}}
+                    return ${pipelinesdev}
                 break;
                 case  TipoPipeline == "DATASET" && AmbienteOrigen == "QA" :
-                {return ${datasetqa}}
+                    return ${pipelinesdev}
                 break;
                 case  TipoPipeline == "DATASET" && AmbienteOrigen == "PRD" :
-                {return ${datasetprd}}
+                    return ${pipelinesdev}
                 break;
-                default:
-                print "error"
-
-                }
-                ''' 
+}
+                """
 
                 fallbackScript('"fallback choice"')
             }
 
-            referencedParameter('TipoPipeline')
-            referencedParameter('AmbienteOrigen')
+            referencedParameter('TipoPipeline, AmbienteOrigen')
         }
     }
 }
 
 def addParams() {
-    def hola= ["pipeline1", "pipeline2"];
+    def hola= ['\'pipeline1\'', '\'pipeline2\''];
     pipelinesdev = hola
 
 }
