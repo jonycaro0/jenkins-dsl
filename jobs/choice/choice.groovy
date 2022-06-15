@@ -18,7 +18,7 @@ import java.util.List
 
   ]) {
         
-       properties([parameters([[$class: 'CascadeChoiceParameter', choiceType: 'PT_SINGLE_SELECT', filterLength: 1, filterable: true, name: 'prueba', randomName: 'choice-parameter-29500453461600', referencedParameters: '', script: [$class: 'GroovyScript', fallbackScript: [classpath: [], sandbox: false, script: ''], script: [classpath: [], sandbox: false, script: array() ]]]])])
+       properties([parameters([[$class: 'CascadeChoiceParameter', choiceType: 'PT_SINGLE_SELECT', filterLength: 1, filterable: true, name: 'prueba', randomName: 'choice-parameter-29500453461600', referencedParameters: '', script: [$class: 'GroovyScript', fallbackScript: [classpath: [], sandbox: false, script: ''], script: [classpath: [], sandbox: true, script: array() ]]]])])
         def err = null
 
     node(POD_LABEL) {
@@ -62,7 +62,7 @@ import java.util.List
 String array(){
 
     //String variable="[\'pepe1\',\'pep2\']"
-        String variable= ["pepe1","pep2"]
+  String variable= ["pepe1","pep2"]
    String pruebaScript="""
     def array=${variable}
     return array
