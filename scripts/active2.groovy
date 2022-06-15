@@ -76,26 +76,7 @@ pipelineJob('PRUEBAS/dinamicList') {
 
 def addParams() {
 
-        podTemplate(containers: [
-    containerTemplate(name: 'azure-cli', image: 'maikol555/azurecli', command: 'sleep', args: '99d')
-   // containerTemplate(name: 'clone-git', image: 'bitnami/git', command: 'sleep', args: '99d')
 
-  ]){
-
-            container('azure-cli') {
-               
-               stage('prueba'){
-                sh "func"
-                sh "az"
-                sh "mvn -v"
-                println "lo seleccionado: "+params.parameter
-               } 
-            
-            }
-
-                //obtener los parametros de la apliacion dependiendo el ambiente
-
-            }
     def hola= ['\'pipeline1\'', '\'pipeline2\''];
     println hola
     def hola2= ['\'dataset1\'', '\'dataset2\''];
