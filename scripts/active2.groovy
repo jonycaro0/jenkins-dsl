@@ -52,7 +52,7 @@ pipelineJob('PRUEBAS/dinamicList') {
                     return ${pipelinesdev}
                 break;
                 case  TipoPipeline == "DATASET" && AmbienteOrigen == "DEV" :
-                    return ${pipelinesdev}
+                    return ${datasetdev}
                 break;
                 case  TipoPipeline == "DATASET" && AmbienteOrigen == "QA" :
                     return ${pipelinesdev}
@@ -75,5 +75,7 @@ def addParams() {
     def hola= ['\'pipeline1\'', '\'pipeline2\''];
     def hola2= ['\'dataset1\'', '\'dataset2\''];
     pipelinesdev = hola
+    datasetdev= hola2
+
 
 }
