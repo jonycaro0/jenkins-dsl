@@ -89,4 +89,46 @@ def addList(){
 [?2004l[?2004h> 
 [?2004l[?2004h> }
 [?2004l[?2004h> ^C[?2004l[?2004h[?2004l
-[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ def addList(){}[Kkubectl describe certificates/pd-jenkins-tls -n jenkins[20Pget certificate[C[C[C[C[C[C[C[C[C[C[C[C[20@describe certificates/pd-jenkins-tl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C}[Kdef addList(){[Kdef addList(){[Kdef addList(){}[Kkubectl describe certificates/pd-jenkins-tls -n jenkins[20Pget certificate[C[C[C[C[C[C[C[C[C[C[C[Capply -f ingress-jenkins.yaml [3Pget certificates -n jenkinsdelete -f  ingress-jenkins.yaml [5Pget certificates -n jenkinsapply -f ingress-jenkins.yaml [3Pget certificates -n jenkins[20@describe certificates/pd-jenkins-tl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ def addList(){}[Kkubectl describe certificates/pd-jenkins-tls -n jenkins[20Pget certificate[C[C[C[C[C[C[C[C[C[C[C[C[20@describe certificates/pd-jenkins-tl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C}[Kdef addList(){[Kdef addList(){[Kdef addList(){}[Kkubectl describe certificates/pd-jenkins-tls -n jenkins[20Pget certificate[C[C[C[C[C[C[C[C[C[C[C[Capply -f ingress-jenkins.yaml [3Pget certificates -n jenkinsdelete -f  ingress-jenkins.yaml [5Pget certificates -n jenkinsapply -f ingress-jenkins.yaml [3Pget certificates -n jenkins[20@describe certificates/pd-jenkins-tl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C}[Kdef addList(){[Kgit add[K[K[Kpuiu[K[Ksh
+[?2004lUsername for 'https://github.com': jonycaro0
+Password for 'https://jonycaro0@github.com': 
+Enumerando objetos: 7, listo.
+Contando objetos:  14% (1/7)Contando objetos:  28% (2/7)Contando objetos:  42% (3/7)Contando objetos:  57% (4/7)Contando objetos:  71% (5/7)Contando objetos:  85% (6/7)Contando objetos: 100% (7/7)Contando objetos: 100% (7/7), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos:  25% (1/4)Comprimiendo objetos:  50% (2/4)Comprimiendo objetos:  75% (3/4)Comprimiendo objetos: 100% (4/4)Comprimiendo objetos: 100% (4/4), listo.
+Escribiendo objetos:  25% (1/4)Escribiendo objetos:  50% (2/4)Escribiendo objetos:  75% (3/4)Escribiendo objetos: 100% (4/4)Escribiendo objetos: 100% (4/4), 826 bytes | 826.00 KiB/s, listo.
+Total 4 (delta 1), reusado 0 (delta 0), pack-reusado 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/jonycaro0/jenkins-dsl.git
+   9f2081b..289251a  feature/seedJob -> feature/seedJob
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git add .-[K
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git add .[1Ppushdef addList(){}[Kkubectl describe certificates/pd-jenkins-tls -n jenkins[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C}[Kdef addList(){[6Pgit pushadd .[Kgit coo[Kmmt -m "a"
+[?2004lgit: 'commt'no es un comando de git. Mira 'git --help'.
+
+El comando mas similar es
+	commit
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git commt -m "a"[1@i
+[?2004l[feature/seedJob a594856] a
+ Committer: jonycaro <jonycaro@ElZarabambiche.localdomain>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que son correctos.
+Tu puedes suprimir este mensaje configurándolos de forma explicita. Ejecuta el 
+siguiente comando y sigue las instrucciones de tu editor
+ para modificar tu archivo de configuración:
+
+    git config --global --edit
+
+Tras hacer esto, puedes arreglar la identidad usada para este commit con:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 99 insertions(+), 1 deletion(-)
+ create mode 100644 if(TIPO == PIPELINE) {return }else if(TIPO == DATASET) {return } 
+[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git add ..[K
+[?2004l[?2004h]0;jonycaro@ElZarabambiche: ~/repos_github/jenkins-dsl[01;32mjonycaro@ElZarabambiche[00m:[01;34m~/repos_github/jenkins-dsl[00m$ git add .commit -m "a"[1P[C[C[C[C[C[C[C[C[7Padd .[1Ppushdef addList(){[6Pgit push
+[?2004lUsername for 'https://github.com': jonycaro0
+Password for 'https://jonycaro0@github.com': 
+Enumerando objetos: 10, listo.
+Contando objetos:  10% (1/10)Contando objetos:  20% (2/10)Contando objetos:  30% (3/10)Contando objetos:  40% (4/10)Contando objetos:  50% (5/10)Contando objetos:  60% (6/10)Contando objetos:  70% (7/10)Contando objetos:  80% (8/10)Contando objetos:  90% (9/10)Contando objetos: 100% (10/10)Contando objetos: 100% (10/10), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos:  20% (1/5)Comprimiendo objetos:  40% (2/5)Comprimiendo objetos:  60% (3/5)Comprimiendo objetos:  80% (4/5)Comprimiendo objetos: 100% (5/5)Comprimiendo o
