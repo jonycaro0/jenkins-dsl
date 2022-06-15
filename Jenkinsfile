@@ -1,4 +1,4 @@
-node (principal){
+node (){
 
 
     gitCheckout('feature/seedJob', 'git-credentials-goya', 'https://github.com/jonycaro0/jenkins-dsl.git')
