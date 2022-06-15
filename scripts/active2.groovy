@@ -70,7 +70,8 @@ pipelineJob('PRUEBAS/prueba2') {
                 fallbackScript('"fallback choice"')
             }
 
-            referencedParameters('TipoPiepline, AmbienteOrigen')
+            referencedParameter('TipoPipeline')
+            referencedParameter('AmbienteOrigen')
         }
     }
 }
