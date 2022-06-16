@@ -18,7 +18,8 @@ import java.util.List
 
   ]) {
         
-       properties([parameters([[$class: 'CascadeChoiceParameter', choiceType: 'PT_SINGLE_SELECT', filterLength: 1, filterable: true, name: 'prueba', randomName: 'choice-parameter-29500453461600', referencedParameters: '', script: [$class: 'GroovyScript', fallbackScript: [classpath: [], sandbox: false, script: ''], script: [classpath: [], sandbox: true, script: array() ]]]])])
+       //properties([parameters([[$class: 'CascadeChoiceParameter', choiceType: 'PT_SINGLE_SELECT', filterLength: 1, filterable: true, name: 'prueba', randomName: 'choice-parameter-29500453461600', referencedParameters: '', script: [$class: 'GroovyScript', fallbackScript: [classpath: [], sandbox: false, script: ''], script: [classpath: [], sandbox: true, script: array() ]]]])])
+       properties([parameters([[$class: 'ChoiceParameter', choiceType: 'PT_SINGLE_SELECT', filterLength: 1, filterable: false, name: 'tipoPipeline', randomName: 'choice-parameter-83882233331100', script: [$class: 'GroovyScript', fallbackScript: [classpath: [], oldScript: '', sandbox: false, script: '["error"]'], script: [classpath: [], oldScript: '', sandbox: false, script: '["pipeline", "dataset"]']]], [$class: 'ChoiceParameter', choiceType: 'PT_SINGLE_SELECT', filterLength: 1, filterable: false, name: 'ambienteOrigen', randomName: 'choice-parameter-83882244519900', script: [$class: 'GroovyScript', fallbackScript: [classpath: [], oldScript: '', sandbox: false, script: ''], script: [classpath: [], oldScript: '', sandbox: false, script: '["dev", "qa"]']]],[$class: 'DynamicReferenceParameter', choiceType: 'PT_SINGLE_SELECT', filterLength: 1, filterable: true, name: 'prueba', randomName: 'choice-parameter-29500453461600', referencedParameters: 'tipoPipeline, ambienteOrigen', script: [$class: 'GroovyScript', fallbackScript: [classpath: [], sandbox: false, script: ''], script: [classpath: [], sandbox: true, script:"if(${params.tipoPipeline}.equals('pipeline')){pepe()}else if(params.tipoPipeline.equals('dataset')){pepa()}" ]]]])])
         def err = null
 
     node(POD_LABEL) {
@@ -60,10 +61,20 @@ import java.util.List
   }
 
 
-String array(){
+String pepe(){
 
-    //String variable="[\'pepe1\',\'pep2\']"
-  def variable = ["pepe1","pep2"]
+    String variable="[\'pepe1\',\'pepa2\']"
+  print variable
+   String pruebaScript="""
+    def array=${variable}
+    return array
+    """ 
+    return pruebaScript
+}
+
+String pepa(){
+
+    String variable="[\'pepa1\',\'pepa2\']"
   print variable
    String pruebaScript="""
     def array=${variable}

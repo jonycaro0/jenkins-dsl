@@ -25,5 +25,13 @@ pipelineJob('choice/choice') {
         numToKeep(5)
     }
 
+     parameters {
+
+        
+        choiceParam('tipoPipeline', ['pipeline', 'dataset'], 'seleccion')
+
+        choiceParam('ambienteOrigen', ['DEV', 'QA', 'PRD'], 'seleccion')
+     }
+
 
 }
