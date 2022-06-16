@@ -84,7 +84,7 @@ def addParams() {
     def hola2= ['\'dataset1\'', '\'dataset2\''];
     println hola2
     def hola3= ["pipeline1", "pipeline2"];
-    hola3=hola3.replace('"', '"')
+    //hola3=hola3.replace('"', '"')
     println hola3
     pipelinesdev = hola
     datasetdev= hola2
