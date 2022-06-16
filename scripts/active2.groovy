@@ -20,7 +20,7 @@ folder('PRUEBAS') {
 pipelineJob('PRUEBAS/dinamicList') {
     displayName('dinamicList')
 
-    script(addParams())
+   
 
     logRotator {
         numToKeep(5)
