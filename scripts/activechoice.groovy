@@ -30,7 +30,7 @@ pipelineJob('choice/choice') {
         
         choiceParam('tipoPipeline', ['pipeline', 'dataset'], 'seleccion')
 
-        choiceParam('ambienteOrigen', ['DEV', 'QA', 'PRD'], 'seleccion')
+        choiceParam('ambienteOrigen', ['dev', 'qa', 'prd'], 'seleccion')
      }
 
 
